@@ -26,11 +26,11 @@ import UIKit
 
 public class CatalystOutlineView: UITableView {
 
-    internal weak var outlineDataSource: CatalystOutlineViewDataSource?
-    internal weak var outlineDelegate: CatalystOutlineViewDelegate?
+    public weak var outlineDataSource: CatalystOutlineViewDataSource?
+    public weak var outlineDelegate: CatalystOutlineViewDelegate?
 
-    var contentNode: Node!
-    var orderedContentArray: [Node] = []
+    public var contentNode: Node!
+    public var orderedContentArray: [Node] = []
 
     public override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)

@@ -26,14 +26,14 @@ import Foundation
 
 public class Node: NSObject, NSCopying {
 
-    var object: Any?
-    var isCollapsed = false
-    var children: [Node]
+    public var object: Any?
+    public var isCollapsed = false
+    public var children: [Node]
 
     // optional: for detecting offset for child cell
-    var level: Int
+    public var level: Int
 
-    init(object: Any? = nil, children: [Node] = [], level: Int = 0) {
+    public init(object: Any? = nil, children: [Node] = [], level: Int = 0) {
         self.object = object
         self.children = children
         self.level = level
@@ -44,12 +44,12 @@ public class Node: NSObject, NSCopying {
         return copy
     }
 
-    var isLeaf: Bool {
+    public var isLeaf: Bool {
         return children.isEmpty
     }
 
     /// expanded nodes count for main node
-    var expandedCount: Int {
+    public var expandedCount: Int {
         var count = 0
         if isCollapsed || children.isEmpty {
             return count
@@ -61,7 +61,7 @@ public class Node: NSObject, NSCopying {
         return count
     }
 
-    var getChildrenInOrder: [Node] {
+    public var getChildrenInOrder: [Node] {
         if object != nil && (children.isEmpty || isCollapsed) {
             return [self]
         }
@@ -78,7 +78,7 @@ public class Node: NSObject, NSCopying {
     }
 
     /// reset all children nodes
-    func resetChildren() {
+    public func resetChildren() {
         for child in children {
             child.isCollapsed = true
             child.resetChildren()

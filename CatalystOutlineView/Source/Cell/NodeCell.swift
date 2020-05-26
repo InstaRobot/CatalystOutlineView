@@ -24,8 +24,18 @@
 
 import UIKit
 
-public class NodeCell: UITableViewCell {
-    var currentLevel: Int = -1
+open class NodeCell: UITableViewCell {
+    public var currentLevel: Int
+
+    public init(currentLevel: Int, style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        self.currentLevel = currentLevel
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    }
+
+    required public init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
 }
 
 extension NodeCell: ExpandCollapseDisplaying {
