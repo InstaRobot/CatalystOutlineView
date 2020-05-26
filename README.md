@@ -58,7 +58,7 @@ outlineView.outlineDelegate = self
 
 ## Then you should implement:
 
-###CatalystOutlineViewDataSource
+### CatalystOutlineViewDataSource
 ``` swift
 func outlineView(_ outlineView: CatalystOutlineView, numberOfChildrenOfItem item: Any?) -> Int
 func outlineView(_ outlineView: CatalystOutlineView, child index: Int, ofItem item: Any?) -> Any
