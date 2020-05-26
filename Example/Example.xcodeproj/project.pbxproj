@@ -62,6 +62,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		50C49676247D893000788BAB /* Demo Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50CC4B26247CA5C500D7139C /* Main.storyboard */,
+				50CC4B24247CA5C500D7139C /* ViewController.swift */,
+				50E67DD4247D6632000A394F /* BasicViewCell.swift */,
+			);
+			path = "Demo Classes";
+			sourceTree = "<group>";
+		};
 		50CC4B14247CA5C500D7139C = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +93,13 @@
 		50CC4B1F247CA5C500D7139C /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				50C49676247D893000788BAB /* Demo Classes */,
 				50CC4B34247CA5DD00D7139C /* Example.entitlements */,
 				50CC4B20247CA5C500D7139C /* AppDelegate.swift */,
 				50CC4B22247CA5C500D7139C /* SceneDelegate.swift */,
-				50CC4B24247CA5C500D7139C /* ViewController.swift */,
-				50CC4B26247CA5C500D7139C /* Main.storyboard */,
 				50CC4B29247CA5C700D7139C /* Assets.xcassets */,
 				50CC4B2B247CA5C700D7139C /* LaunchScreen.storyboard */,
 				50CC4B2E247CA5C700D7139C /* Info.plist */,
-				50E67DD4247D6632000A394F /* BasicViewCell.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -363,7 +371,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GA5QK7SQDU;
+				DEVELOPMENT_TEAM = "";
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
@@ -390,7 +398,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GA5QK7SQDU;
+				DEVELOPMENT_TEAM = "";
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;

@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet private(set) weak var back: UIView! {
         didSet {
             back.layer.cornerRadius = 10
-            back.layer.shadowColor = UIColor(named: "shadowColor")?.cgColor
             back.layer.shadowOffset = .zero
             back.layer.shadowRadius = 10
             back.layer.shadowOpacity = 0.25
