@@ -1,8 +1,6 @@
 # CatalystOutlineView
 NSOutlineView for UIKit (recreation of popular control from AppKit)
 
-# CatalystOutlineView
-
 The behavior is implemented with the maximum functionality of the classic component and is slightly expanded
 
 ## Overview
