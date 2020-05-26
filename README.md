@@ -7,7 +7,7 @@ The behavior is implemented with the maximum functionality of the classic compon
 
 ## Overview
 
-<img src="Assets/demo.gif" width="500" height="400" />
+<img src="Assets/demo.gif" width="800" height="600" />
 
 ## Requirements
 
@@ -31,7 +31,8 @@ pod 'CatalystOutlineView', '~> 0.1'
 
 ### 🎨 Storyboards
 Just drop UITableView and set its class to be one of CatalystOutlineView.
-<img src="Assets/storyboard.png" width="800" height="617" />
+
+<img src="Assets/storyboard.png" width="800" height="600" />
 
 ### 💻 Code
 ``` swift
@@ -80,7 +81,7 @@ func height(forCell outlineView: CatalystOutlineView?, ofItem item: Any?) -> CGF
 func contextMenuConfiguration(for item: Any?) -> UIContextMenuConfiguration?
 ```
 
-<img src="Assets/context.png" width="800" height="617" />
+<img src="Assets/context.png" width="800" height="600" />
 
 ### Your cell maybe conformed for ExpandCollapseDisplaying protocol
 
