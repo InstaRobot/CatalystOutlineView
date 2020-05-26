@@ -1,28 +1,24 @@
 {
   "name": "CatalystOutlineView",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "summary": "NSOutlineView for UIKit",
-  "description": "NSOutlineView for UIKit",
-  "homepage": "https://github.com/instarobot/CatalystOutlineView",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "homepage": "https://github.com/InstaRobot/CatalystOutlineView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Vitaliy Podolskiy": "instarobot.net@gmail.com"
-  },
-  "platforms": {
-    "ios": "13.0"
+    "DEVLAB": "v.podolskiy@devlab.studio"
   },
   "source": {
-    "git": "https://github.com/instarobot/CatalystOutlineView.git",
-    "tag": "0.0.1"
+    "git": "https://github.com/InstaRobot/CatalystOutlineView.git",
+    "tag": "0.1.0"
   },
-  "source_files": [
-    "Source",
-    "CatalystOutlineView/**/*.{swift}"
-  ],
+  "swift_versions": "5.0",
   "requires_arc": true,
-  "swift_versions": "5.3",
-  "swift_version": "5.3"
+  "source_files": "CatalystOutlineView/**/*.swift",
+  "swift_version": "5.0"
 }

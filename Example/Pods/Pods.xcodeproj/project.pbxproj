@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		050C6968078BC6A77F601D1F53FE228F /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		263C22AD26C864C03E0E0CA0F16CEFF6 /* CatalystOutlineViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9932DCDB457EBA2786F54C20E6AE7DC0 /* CatalystOutlineViewProtocols.swift */; };
-		3237EF3139D95C546E28C6B3BFC5ACB5 /* CatalystOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA345B01C3165EABCBCB789D3990A81 /* CatalystOutlineView.swift */; };
-		5BF1853D79827903672DC7CA7172CE22 /* CatalystOutlineView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FAC322001B71444DA8639CD552AA10 /* CatalystOutlineView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		263C22AD26C864C03E0E0CA0F16CEFF6 /* CatalystOutlineViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932727415F9BA220DB6029388698A747 /* CatalystOutlineViewProtocols.swift */; };
+		3237EF3139D95C546E28C6B3BFC5ACB5 /* CatalystOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248A3080449D71BB690749DC1D2DF39 /* CatalystOutlineView.swift */; };
+		5BF1853D79827903672DC7CA7172CE22 /* CatalystOutlineView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE028096B65AC247D90620B5BA0171B /* CatalystOutlineView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78DCFF227C62693F49FE099EE277F31F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		94E38E208588238FBFAC7BCC143628AC /* CatalystOutlineView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C67D1560015FE98D5E8CB801E86771 /* CatalystOutlineView-dummy.m */; };
-		9D369E10B71EF9B949FC82C39C379A6F /* NodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DEBADE6812E258C50671B8534F6E45 /* NodeCell.swift */; };
+		94E38E208588238FBFAC7BCC143628AC /* CatalystOutlineView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F1AA0575E2893901163510321D287E /* CatalystOutlineView-dummy.m */; };
+		9D369E10B71EF9B949FC82C39C379A6F /* NodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EBE03B03AEC3DA739634121525402A /* NodeCell.swift */; };
 		B11882FB2F9D2BC2FBAA52E055FE5A55 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		BCA39DFE53188C4D115BBD8DCEE77405 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8111074CA15DC7E2EFC6E4F71EFFF0CC /* Node.swift */; };
+		BCA39DFE53188C4D115BBD8DCEE77405 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976E48622389B8DDCD1A9B967C9407EE /* Node.swift */; };
 		EEC10409AAB2C72455AD3664B29ECC63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,32 +30,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CF982BCE928F675F5E2FDF8E7D4F9C2 /* CatalystOutlineView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CatalystOutlineView.debug.xcconfig; sourceTree = "<group>"; };
+		00F1AA0575E2893901163510321D287E /* CatalystOutlineView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CatalystOutlineView-dummy.m"; sourceTree = "<group>"; };
+		0833EA355AEE6F9F2D3C3C22D8F2E20A /* CatalystOutlineView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CatalystOutlineView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		2A0CEC603E34B90F5B4ABA9C48868000 /* CatalystOutlineView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CatalystOutlineView-prefix.pch"; sourceTree = "<group>"; };
+		26ADADE6429735858D69D1C5E4E4FA01 /* CatalystOutlineView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CatalystOutlineView.modulemap; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		3F8565DA90EA0BDFA8692D183C9E7F16 /* CatalystOutlineView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CatalystOutlineView.modulemap; sourceTree = "<group>"; };
+		41173FCCBDA47EDD7EB541F1CDF357C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4248A3080449D71BB690749DC1D2DF39 /* CatalystOutlineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CatalystOutlineView.swift; path = CatalystOutlineView/Source/CatalystOutlineView.swift; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		44CB35BA54CF63E8950D343321B13F41 /* CatalystOutlineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CatalystOutlineView.framework; path = CatalystOutlineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59204737DA3EBDECA9811AD921380E21 /* CatalystOutlineView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CatalystOutlineView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		65DEBADE6812E258C50671B8534F6E45 /* NodeCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeCell.swift; sourceTree = "<group>"; };
-		735C96698305A461C54110F3DC701092 /* CatalystOutlineView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CatalystOutlineView-Info.plist"; sourceTree = "<group>"; };
+		47C3B36BA453D636F838B21A5647F6B2 /* CatalystOutlineView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CatalystOutlineView.debug.xcconfig; sourceTree = "<group>"; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		8111074CA15DC7E2EFC6E4F71EFFF0CC /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		8FF8E2D0940F80AD096E1E37A4F02B1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		95FAC322001B71444DA8639CD552AA10 /* CatalystOutlineView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CatalystOutlineView-umbrella.h"; sourceTree = "<group>"; };
-		9932DCDB457EBA2786F54C20E6AE7DC0 /* CatalystOutlineViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatalystOutlineViewProtocols.swift; sourceTree = "<group>"; };
+		932727415F9BA220DB6029388698A747 /* CatalystOutlineViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatalystOutlineViewProtocols.swift; sourceTree = "<group>"; };
+		96B59E34A7BDF705D9474ACAA016D6E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		976E48622389B8DDCD1A9B967C9407EE /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		97EBE03B03AEC3DA739634121525402A /* NodeCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeCell.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC7558F5A5AEC56070B1AA09C47B1495 /* CatalystOutlineView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CatalystOutlineView-Info.plist"; sourceTree = "<group>"; };
+		C60080C786C7150522242A68FDFAA2E2 /* CatalystOutlineView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CatalystOutlineView.release.xcconfig; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		DDE028096B65AC247D90620B5BA0171B /* CatalystOutlineView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CatalystOutlineView-umbrella.h"; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EBA09478EB245175D2D9C8B67A588212 /* CatalystOutlineView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CatalystOutlineView.release.xcconfig; sourceTree = "<group>"; };
-		F9C67D1560015FE98D5E8CB801E86771 /* CatalystOutlineView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CatalystOutlineView-dummy.m"; sourceTree = "<group>"; };
-		FCA345B01C3165EABCBCB789D3990A81 /* CatalystOutlineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CatalystOutlineView.swift; path = CatalystOutlineView/Source/CatalystOutlineView.swift; sourceTree = "<group>"; };
+		F84B4D17D1EA7A67FDE4BAC621EB1CF3 /* CatalystOutlineView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CatalystOutlineView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,50 +79,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B842F44CC38936BFBADE6DB6153D5C0 /* Support Files */ = {
+		34EBE1678AC53AE5374ADA35DA8E2B1C /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				3F8565DA90EA0BDFA8692D183C9E7F16 /* CatalystOutlineView.modulemap */,
-				F9C67D1560015FE98D5E8CB801E86771 /* CatalystOutlineView-dummy.m */,
-				735C96698305A461C54110F3DC701092 /* CatalystOutlineView-Info.plist */,
-				2A0CEC603E34B90F5B4ABA9C48868000 /* CatalystOutlineView-prefix.pch */,
-				95FAC322001B71444DA8639CD552AA10 /* CatalystOutlineView-umbrella.h */,
-				0CF982BCE928F675F5E2FDF8E7D4F9C2 /* CatalystOutlineView.debug.xcconfig */,
-				EBA09478EB245175D2D9C8B67A588212 /* CatalystOutlineView.release.xcconfig */,
+				97EBE03B03AEC3DA739634121525402A /* NodeCell.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CatalystOutlineView";
+			name = Cell;
+			path = CatalystOutlineView/Source/Cell;
 			sourceTree = "<group>";
 		};
-		4B2DD3C8EF70F27E4ED5581472D62304 /* CatalystOutlineView */ = {
+		411F591B7497D7949D73E2043FBC13C2 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				FCA345B01C3165EABCBCB789D3990A81 /* CatalystOutlineView.swift */,
-				81DFC5165699228A25AE0FA73D0EBAE1 /* Cell */,
-				F95A8E503FFF1FE3C556F613C015CC54 /* Model */,
-				D36D809426319E46D96991C11B3385FA /* Pod */,
-				B398A4E837E7376AF3CA30C047CDBB62 /* Protocols */,
-				0B842F44CC38936BFBADE6DB6153D5C0 /* Support Files */,
+				932727415F9BA220DB6029388698A747 /* CatalystOutlineViewProtocols.swift */,
 			);
-			name = CatalystOutlineView;
-			path = ../..;
+			name = Protocols;
+			path = CatalystOutlineView/Source/Protocols;
+			sourceTree = "<group>";
+		};
+		5F72373831AEBF4FDEEE15ACDBEBB30E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0833EA355AEE6F9F2D3C3C22D8F2E20A /* CatalystOutlineView.podspec */,
+				96B59E34A7BDF705D9474ACAA016D6E1 /* LICENSE */,
+				41173FCCBDA47EDD7EB541F1CDF357C9 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		70CD12ED11082A0751475A96AA5B8763 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B2DD3C8EF70F27E4ED5581472D62304 /* CatalystOutlineView */,
+				FF91A6891FE2D9CA14E59C1E0E59FA59 /* CatalystOutlineView */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		81DFC5165699228A25AE0FA73D0EBAE1 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				65DEBADE6812E258C50671B8534F6E45 /* NodeCell.swift */,
-			);
-			name = Cell;
-			path = CatalystOutlineView/Source/Cell;
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -141,15 +132,6 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		B398A4E837E7376AF3CA30C047CDBB62 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				9932DCDB457EBA2786F54C20E6AE7DC0 /* CatalystOutlineViewProtocols.swift */,
-			);
-			name = Protocols;
-			path = CatalystOutlineView/Source/Protocols;
-			sourceTree = "<group>";
-		};
 		BC637F78D8502604F28E9AD2F03FF3B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +147,21 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C309DE81D29CA26185BA9FA58CBF3F0A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26ADADE6429735858D69D1C5E4E4FA01 /* CatalystOutlineView.modulemap */,
+				00F1AA0575E2893901163510321D287E /* CatalystOutlineView-dummy.m */,
+				BC7558F5A5AEC56070B1AA09C47B1495 /* CatalystOutlineView-Info.plist */,
+				F84B4D17D1EA7A67FDE4BAC621EB1CF3 /* CatalystOutlineView-prefix.pch */,
+				DDE028096B65AC247D90620B5BA0171B /* CatalystOutlineView-umbrella.h */,
+				47C3B36BA453D636F838B21A5647F6B2 /* CatalystOutlineView.debug.xcconfig */,
+				C60080C786C7150522242A68FDFAA2E2 /* CatalystOutlineView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CatalystOutlineView";
 			sourceTree = "<group>";
 		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
@@ -194,22 +191,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D36D809426319E46D96991C11B3385FA /* Pod */ = {
+		D7CACA11262E1A2A35D3019405BE5DA7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				59204737DA3EBDECA9811AD921380E21 /* CatalystOutlineView.podspec */,
-				8FF8E2D0940F80AD096E1E37A4F02B1E /* LICENSE */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F95A8E503FFF1FE3C556F613C015CC54 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8111074CA15DC7E2EFC6E4F71EFFF0CC /* Node.swift */,
+				976E48622389B8DDCD1A9B967C9407EE /* Node.swift */,
 			);
 			name = Model;
 			path = CatalystOutlineView/Source/Model;
+			sourceTree = "<group>";
+		};
+		FF91A6891FE2D9CA14E59C1E0E59FA59 /* CatalystOutlineView */ = {
+			isa = PBXGroup;
+			children = (
+				4248A3080449D71BB690749DC1D2DF39 /* CatalystOutlineView.swift */,
+				34EBE1678AC53AE5374ADA35DA8E2B1C /* Cell */,
+				D7CACA11262E1A2A35D3019405BE5DA7 /* Model */,
+				5F72373831AEBF4FDEEE15ACDBEBB30E /* Pod */,
+				411F591B7497D7949D73E2043FBC13C2 /* Protocols */,
+				C309DE81D29CA26185BA9FA58CBF3F0A /* Support Files */,
+			);
+			name = CatalystOutlineView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,6 +411,43 @@
 			};
 			name = Release;
 		};
+		81ED239D9F05335700995F287BD5BB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60080C786C7150522242A68FDFAA2E2 /* CatalystOutlineView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CatalystOutlineView/CatalystOutlineView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CatalystOutlineView/CatalystOutlineView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CatalystOutlineView/CatalystOutlineView.modulemap";
+				PRODUCT_MODULE_NAME = CatalystOutlineView;
+				PRODUCT_NAME = CatalystOutlineView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A4BE61D6B59E0B52F468D3E73A47CE14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */;
@@ -486,9 +525,9 @@
 			};
 			name = Debug;
 		};
-		CE5A90373D7BEA165E6BAAB7E0A851AA /* Debug */ = {
+		CA2BB9E2608D84E4A4B035969725F130 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CF982BCE928F675F5E2FDF8E7D4F9C2 /* CatalystOutlineView.debug.xcconfig */;
+			baseConfigurationReference = 47C3B36BA453D636F838B21A5647F6B2 /* CatalystOutlineView.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -515,7 +554,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -586,43 +625,6 @@
 			};
 			name = Debug;
 		};
-		F1B918771B753C55B21EF883ABD397F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBA09478EB245175D2D9C8B67A588212 /* CatalystOutlineView.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CatalystOutlineView/CatalystOutlineView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CatalystOutlineView/CatalystOutlineView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CatalystOutlineView/CatalystOutlineView.modulemap";
-				PRODUCT_MODULE_NAME = CatalystOutlineView;
-				PRODUCT_NAME = CatalystOutlineView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -647,8 +649,8 @@
 		ACA9C9FFA41640688EAE299505F9E66D /* Build configuration list for PBXNativeTarget "CatalystOutlineView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE5A90373D7BEA165E6BAAB7E0A851AA /* Debug */,
-				F1B918771B753C55B21EF883ABD397F8 /* Release */,
+				CA2BB9E2608D84E4A4B035969725F130 /* Debug */,
+				81ED239D9F05335700995F287BD5BB61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

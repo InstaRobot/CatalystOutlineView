@@ -1,5 +1,5 @@
 PODS:
-  - CatalystOutlineView (0.0.1)
+  - CatalystOutlineView (0.1.0)
 
 DEPENDENCIES:
   - CatalystOutlineView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CatalystOutlineView: a561e867ac43e1a09b5b7a04e07b4ec7552f9d59
+  CatalystOutlineView: ed1a869bb548742e1bfcdae6a8ee570dbe496b4a
 
 PODFILE CHECKSUM: a1494415b50169afda9de5b3693da593791df11b
 
