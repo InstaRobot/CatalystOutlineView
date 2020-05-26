@@ -16,7 +16,7 @@ The behavior is implemented with the maximum functionality of the classic compon
 
 ### Manually
 
-Just add the `Sources` folder to your project.
+Just add the `Source` folder to your project.
 
 ### CocoaPods
 
