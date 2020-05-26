@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name             = 'CatalystOutlineView'
-    spec.version          = '0.1.1'
+    spec.version          = '0.1.2'
     spec.summary          = 'NSOutlineView for UIKit (recreation of popular control from AppKit)'
   
     spec.ios.deployment_target = '13.0'
