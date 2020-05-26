@@ -35,10 +35,10 @@ Just drop UITableView and set its class to be one of CatalystOutlineView.
 ### 💻 Code
 ``` swift
 private var outline = CatalystOutlineView(frame: .zero) {
-	didSet {
-		outlineView.outlineDataSource = self
-			outlineView.outlineDelegate = self
-	}
+    didSet {
+        outlineView.outlineDataSource = self
+        outlineView.outlineDelegate = self
+    }
 }
 ```
 
