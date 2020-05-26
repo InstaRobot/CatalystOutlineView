@@ -1,0 +1,6 @@
+framework module CatalystOutlineView {
+  umbrella header "CatalystOutlineView-umbrella.h"
+
+  export *
+  module * { export * }
+}

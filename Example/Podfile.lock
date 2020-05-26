@@ -1,0 +1,16 @@
+PODS:
+  - CatalystOutlineView (0.0.1)
+
+DEPENDENCIES:
+  - CatalystOutlineView (from `../`)
+
+EXTERNAL SOURCES:
+  CatalystOutlineView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CatalystOutlineView: a561e867ac43e1a09b5b7a04e07b4ec7552f9d59
+
+PODFILE CHECKSUM: a1494415b50169afda9de5b3693da593791df11b
+
+COCOAPODS: 1.9.1
