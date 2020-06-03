@@ -1,6 +1,6 @@
 //
 //  CatalystOutlineView.swift
-//  CHIOTPField - https://github.com/InstaRobot/CatalystOutlineView
+//  CatalystOutlineView - https://github.com/InstaRobot/CatalystOutlineView
 //
 //  Copyright © 2020 DEBLAB. All rights reserved.
 //
@@ -105,10 +105,10 @@ extension CatalystOutlineView: UITableViewDelegate {
             insertRows(at: indexPaths, with: .fade)
             outlineDelegate?.outlineView(self, didExpandItem: node.object)
         }
-        // we can inform cell fot its current state
+        // we can inform cell for its current state
         if let cell = tableView.cellForRow(at: indexPath) {
             if cell.conforms(to: ExpandCollapseDisplaying.self) {
-                /* Log.debug("cell conforms to expand and collapse displaying protocol") */
+                /* print("cell conforms to expand and collapse displaying protocol") */
             }
             if node.isCollapsed, cell.responds(to: NSSelectorFromString("collapse")) {
                 cell.perform(NSSelectorFromString("collapse"))

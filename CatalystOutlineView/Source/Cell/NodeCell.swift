@@ -1,6 +1,6 @@
 //
 //  NodeCell.swift
-//  CHIOTPField - https://github.com/InstaRobot/CatalystOutlineView
+//  CatalystOutlineView - https://github.com/InstaRobot/CatalystOutlineView
 //
 //  Copyright © 2020 DEBLAB. All rights reserved.
 //
